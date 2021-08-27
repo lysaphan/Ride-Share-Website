@@ -1,0 +1,39 @@
+body {
+  width: 1200px;
+	margin: auto;
+	padding: 10px;
+	background-color: #ebf5fb;
+}
+
+#wrapper {
+  background-color: #FFF;
+  padding: 5px;
+}
+
+h1 {
+	font-size: 40pt;
+	text-shadow: 4px 4px #ca6f1e;
+	color: #f8c471;
+	font-family: sans-serif;
+	margin-bottom: 0;
+  margin-top: 0;
+	padding-bottom: 0;
+}
+
+#ridesContainer {
+  padding: 5px;
+  background-color: pink;
+  height: auto;
+}
+
+.offerDiv {
+  background-color: yellow;
+  margin: 5px;
+  height: auto;
+}
+
+.requestDiv {
+  background-color: lightblue;
+  margin: 5px;
+  height: auto;
+}

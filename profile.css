@@ -1,0 +1,127 @@
+
+/* User profile */
+body{
+  background: -webkit-linear-gradient(left,#0F5733,#70C299);
+}
+.emp-profile{
+  padding: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+/* Image */
+.profile-img{
+  text-align: center;
+}
+.profile-img img{
+  width: 300px;
+  height: 300px;
+}
+
+
+/* Header */
+.profile-head h5{
+  color:  #339966;
+  font-size: 45px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+}
+.profile-head h6{
+  color:#333;
+  font-size: 20px;
+}
+.profile-head h4{
+  color:rgba(51, 51, 51, 0.445);
+  font-size: 30px;
+}
+
+/* Button */
+.profile-edit-btn{
+  border: none;
+  border-radius: 1.5rem;
+  width: 70%;
+  padding: 2%;
+  font-weight: 600;
+  background-color: #6dbd63;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.profile-edit-btn:hover, .profile-edit-btn:focus {
+  background-color:#339955;
+  outline:none;
+}
+
+.checked {
+  color: orange;
+}
+
+.side-menu {
+  text-align: center
+}
+
+.side-menu .nav {
+  display: inline-block;
+  margin: 0 auto
+}
+
+.side-menu .nav>li {
+  font-size: 34px;
+  margin-bottom: 0;
+  border-bottom: none;
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 15px
+}
+
+.side-menu .nav>li:last-child {
+  margin-right: 0
+}
+
+.side-menu .nav>li>a {
+  display: inline-block;
+  color: #9499a3;
+  padding: 5px;
+  border-bottom: 2px solid transparent
+}
+
+.side-menu .nav>li>a:hover {
+  color: #616670;
+  background: none;
+  text-decoration: none;
+}
+
+.side-menu .nav>li.active a {
+  color: #6dbd63;
+  border-bottom:2px solid #6dbd63
+}
+
+.side-menu .nav>li .icon {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 5px
+}
+
+
+label{
+  color:#339955;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-control{
+  font-size: 22px;
+}
+
+p {
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#genderSel {
+  size: 30px;
+}
